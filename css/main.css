@@ -1,0 +1,89 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.top_text {
+  width: 1200px;
+  height: 70px;
+  margin: 0 auto;
+  font-size: 35px;
+  text-align: center;
+  line-height: 70px;
+  margin-top: 25px;
+}
+.choose {
+  width: 1200px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+.choose .sel_box {
+  width: 150px;
+  height: 30px;
+  float: left;
+  line-height: 30px;
+}
+.choose .sel_box .sel {
+  width: 80px;
+  height: 25px;
+}
+.choose .fName_box {
+  width: 265px;
+  height: 30px;
+  margin-left: 20px;
+  float: left;
+  line-height: 30px;
+}
+.choose .fName_box input {
+  margin-left: 10px;
+  height: 20px;
+}
+.choose .much_box {
+  width: 140px;
+  height: 30px;
+  margin-left: 10px;
+  float: left;
+  line-height: 30px;
+}
+.choose .much_box input {
+  margin-left: 10px;
+  height: 20px;
+  width: 50px;
+}
+.choose .sub_btn {
+  width: 80px;
+  height: 30px;
+  font-size: 16px;
+}
+.choose .del_btn {
+  width: 80px;
+  height: 30px;
+  font-size: 16px;
+}
+table {
+  width: 1200px;
+  margin: 0 auto;
+}
+table tr {
+  height: 40px;
+}
+table tr th {
+  background: #ccc;
+}
+table tr td {
+  text-align: center;
+}
+table tr td input {
+  width: 35px;
+  border: 0px;
+  background: #fff;
+  color: #000;
+  font-size: 17px;
+}
+table tr td input:hover {
+  width: 35px;
+  border: 0px;
+  background: #fff;
+  color: #000fe4;
+  font-size: 17px;
+}

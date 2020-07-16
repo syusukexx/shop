@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>购物车</title>
+</head>
+
+<body>
+    <div class="top_text">购物车天界删除功能</div>
+    <div class="choose">
+        <div class="sel_box">
+            <span>商品类型</span>
+            <select id="sel" class="sel">
+                <option value="">手机</option>
+                <option value="">电脑</option>
+                <option value="">零食</option>
+                <option value="">饮料</option>
+            </select>
+        </div>
+        <div class="fName_box">
+            商品名称<input type="text" id="name_val" />
+        </div>
+        <div class="much_box">
+            商品数量<input type="text" id="num_val" />
+        </div>
+        <input type="button" class="sub_btn" id="sub" value="提交商品" />
+        <input type="button" class="del_btn" id="del_btn" value="禁止删除" />
+    </div>
+    <table border="1" cellspacing="0" id="tt">
+        <tr>
+            <th>序号</th>
+            <th>商品类型</th>
+            <th>商品名称</th>
+            <th>商品数量</th>
+            <th>操作</th>
+        </tr>
+    </table>
+</body>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/main.js"></script>
+</html>
